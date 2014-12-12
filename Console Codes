@@ -1,0 +1,32 @@
+/*char[] vowels = { 'a','e','i','o','u'};*/
+            Console.WriteLine("Enter Sentence");
+            String sentence = Console.ReadLine();
+            for(int i=0;i<sentence.Length;i++)
+            {
+                /*for(int a=0;a<vowels.Length;a++)*/
+                {
+                    if (sentence[i] == 'a' )
+                    {
+                        Console.Write("a");
+
+                    } 
+                    else if (sentence[i] == 'e')
+                    {
+                        Console.Write("e");
+                    }
+                    else if (sentence[i] == 'i')
+                    {
+                        Console.Write("i");
+                    }
+                    else if (sentence[i] == 'o')
+                    {
+                        Console.Write("o");
+                    }
+                    else if (sentence[i] == 'u')
+                    {
+                        Console.Write("u");
+                    }
+
+                }
+            }
+            Console.ReadKey();
